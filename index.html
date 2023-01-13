@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="shortcut icon" href="./img/foguete.png" type="image/x-icon">
+   
+    <title>Explore o universo</title>
+  </head>
+  <body class="img-back">
+    <nav class="nav-container">
+        <img src="./img/Vector.svg" alt="">
+
+        <div>
+          <a id="active" href="/home" onclick="route()">Home </a>
+          
+          <a href="/the-universe" onclick="route()">O universo</a>
+          
+          <a href="/exploration" onclick="route()">Exploração</a>
+
+          <a href="/404" onclick="route()"></a>
+        </div>
+
+           
+    </nav>
+ 
+    <div id="app"></div>
+    <script src="./js/router.js"></script>
+  </body>
+</html>
